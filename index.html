@@ -3,34 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Adonias Hailu, Software Engineering
+student and aspiring app developer.">
+<meta name="keywords" content="Adonias Hailu, portfolio, software engineering, app
+developer, HTML">
+<meta name="author" content="Adonias Hailu">
+
   <title>Adonias Hailu | Portfolio</title>
  <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
+  <header>
   <h1>Adonias Hailu</h1>
   <img src="images/profile.jpg"
      alt="Portrait of Adonias Hailu"
      title="Adonias Hailu"
      width="200" height="200">
   <p>Software Engineering student and app developer.</p>
-  <p>
+  <nav>
     <a href="#about">About</a> |
     <a href="#skills">Skills</a> |
     <a href="#projects">Projects</a> |
     <a href="#education">Education</a> |
     <a href="#contact">Contact</a> |
     <a href="projects.html">All Projects</a>
-</p>
+  </nav>
+  </header>
   <hr>
-<h2 id="about">About Me</h2>
+
+  <main>
+<section id="about">About Me>
 <p>I am a 3<sup>rd</sup> year <strong>Software Engineering</strong> student who <em>really</em> builds apps.</p>
 <p>My goal is to <mark>become a senior app developer</mark>.</p>
 <p>Tools I have used: <b>Flutter</b>, <b>HTML</b> and <i>a little</i> backend work with <abbr title="Application Programming Interface">API</abbr>s.</p>
 <p>Status: <del>beginner</del> intermediate and still got a long way to go.</p>
 <p>Fun fact: I love playing <u>chess</u>.</p>
 <p><small>Last updated: October 2026</small></p>
-
-<hr>
+</section>
+<aside>
 <h2>What Inspires Me</h2>
 <blockquote>
   “If it is not right, do not do it; if it is not true, do not say it.” — Marcus Aurelius
@@ -38,10 +48,10 @@
 <p>I believe <q>small steps lead to big results</q>, so I try to improve my life every day.</p>
 <p>Book I am reading: <cite>Meditations</cite> by Marcus Aurelius</p>
 
-  <hr>
+</aside>
 
   
-<h2 id="skills">Skills</h2>
+<section id="skills">Skills>
 
 <ul>
     <li>Programming Languages
@@ -124,10 +134,11 @@
     <dd>A development tool I use for emulator support.</dd>
 </dl>
 
+</section>
+  
 
-  <hr>
-
- <h2 id="projects">Projects</h2>
+ <section id="projects">Projects>
+  <article>
 
 <h3>E-commerce App</h3>
 
@@ -139,6 +150,7 @@
              width="300">
         <figcaption>Home Page</figcaption>
     </figure>
+  
 
     <figure>
         <img src="images/Project-ecommerceCategory.png"
@@ -162,17 +174,22 @@
     </figure>
 </div>
   <p>A shopping app that loads products from an API. Users can browse items, add them to a cart and place orders.</p>
+  </article>
+  <article>
   <h3>Weather App</h3>
   <img src="images/project-weather.png"
      alt="Screenshot of my Weather App"
      width="400" height="300">
   <p>An app that shows current weather and forecast for a city the user searches for in real time.</p>
+  </article>
+  <article>
   <h3>Classlink (in progress)</h3>
   <img src="images/project-classlink.png"
      alt="Screenshot of the ClassLink app home screen with a search bar, quick access buttons for classmates, courses and messages, and campus announcements"
      width="300">
   <p>A team project built with three students. classLink is an app that connects students in our class, because the connection at our university is currently poor while the infrastructure is being improved. I work on app's interface using flutter. </p>
-  
+</article>
+<article>
 <h3>My First Program(a Webpage)</h3>
 <p>I wrote my first web page using HTML in Grade 10. It was my first experience creating something for the web.</p>
 <pre><code>&lt;!DOCTYPE html&gt;
@@ -184,8 +201,8 @@
     &lt;p&gt;This is my first web page.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
-
- 
+</article>
+ <article>
 <h3>My Second Program (C++)</h3>
 <p>This is a linear search I wrote in <code>C++</code> last year in my programming class. It returns the index of the target, or <code>-1</code> if it isn't found:</p>
 <pre><code>int linearSearch(int A[], int n, int target) {
@@ -194,11 +211,13 @@
             return i;
     }
     return -1;
-}</code></pre>
-<p><a href="projects.html">See all my projects →</a></p>
-  <hr>
 
- <h2 id="education">Education</h2>
+}</code></pre> 
+</article>
+<p><a href="projects.html">See all my projects →</a></p>
+</section>
+
+ <section id="education">Education>
   <h3>BSc in Software Engineering</h3>
   <p>Addis Ababa Science and Technology University (AASTU), 2024 – present</p>
   <table border="1" cellpadding="8" cellspacing="0">
@@ -276,10 +295,10 @@
     </tr>
   </tfoot>
 </table>
-  <hr>
+</section>
 
  
-<h2 id="contact">Contact</h2>
+<section id="contact">Contact>
 
 <p>Address:<br>
 Addis Ababa,<br>
@@ -317,7 +336,10 @@ Ethiopia</p>
           href="mailto:adonias.hailu@aastustudent.edu.et"
           alt="Email">
 </map>
-
-
+</section>
+</main>
+<footer>
+    <p>&copy; 2026 Abebe Kebede. All rights reserved.</p>
+</footer>
 </body>
 </html>
