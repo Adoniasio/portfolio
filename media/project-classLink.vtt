@@ -1,0 +1,27 @@
+WEBVTT
+
+WEBVTT
+
+00:00:00.000 --> 00:00:07.000
+This is ClassLink, a team project built with Flutter and shown here running in Chrome.
+
+00:00:07.000 --> 00:00:13.000
+The home screen has a search bar, quick access to classmates, courses and messages, and campus announcements.
+
+00:00:13.000 --> 00:00:17.000
+The Classes tab lists my courses, such as OOP, DSA and Database Systems.
+
+00:00:17.000 --> 00:00:21.000
+Opening a course shows its course information and the classmates in it.
+
+00:00:21.000 --> 00:00:25.000
+The Chats tab lists conversations with classmates, and I open one to start a chat.
+
+00:00:25.000 --> 00:00:28.000
+I type a message and send it.
+
+00:00:28.000 --> 00:00:32.000
+Back in the chat list, I check the Profile tab, which is still coming soon.
+
+00:00:32.000 --> 00:00:38.000
+Then I return to Classes and Home. We are still building the rest of the app.
