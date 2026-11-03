@@ -14,7 +14,13 @@ developer, HTML">
 </head>
 <body>
   <header>
-  <h1>Adonias Hailu</h1>
+   
+    <canvas id="logo" width="120" height="120">
+        Adonias Hailu logo
+    </canvas>
+
+    <h1>Adonias Hailu</h1>
+
   <img src="images/profile.jpg"
      alt="Portrait of Adonias Hailu"
      title="Adonias Hailu"
@@ -128,17 +134,19 @@ and <i>a little</i> backend work with
 </p>
 <p>
   <label for="lvl-flutter">Flutter</label>
-  <meter id="lvl-flutter" value="0.6" min="0" max="1">60%</meter>
+  <meter id="lvl-flutter" value="0.8" min="0" max="1">80%</meter>
 </p>
 <p>
   <label for="lvl-html">HTML</label>
-  <meter id="lvl-html" value="0.8" min="0" max="1">80%</meter>
+  <meter id="lvl-html" value="0.6" min="0" max="1">60%</meter>
 </p>
 <p>
   <label for="lvl-js">JavaScript</label>
   <meter id="lvl-js" value="0.2" min="0" max="1" low="0.3" high="0.7" optimum="1">20%</meter>
 </p>
-
+<canvas id="skillsChart" width="300" height="150">
+    A chart showing my skill levels
+</canvas>
 <h3>My Flutter Development Roadmap</h3>
 
 
@@ -479,5 +487,53 @@ pattern="0[79][0-9]{8}" title="10 digits starting with 09 or 07" >
     <p>&copy; 2026 Adonias Hailu. All rights reserved.</p>
     <p>Last updated: <time datetime="2026-11-03">3 November 2026</time></p>
 </footer>
+<script>
+const canvas = document.getElementById('logo');
+const ctx = canvas.getContext('2d');
+
+// Blue square background
+ctx.fillStyle = "#1f5fa8";
+ctx.fillRect(0, 0, 120, 120);
+// White circle
+ctx.beginPath();
+ctx.arc(60, 60, 45, 0, 2 * Math.PI);
+ctx.fillStyle = "white";
+ctx.fill();
+//  Initials 
+ctx.fillStyle = "#1f5fa8";
+ctx.font = "bold 36px Arial";
+ctx.textAlign = "center";
+ctx.textBaseline = "middle";
+ctx.fillText("AH", 60, 62);
+// Skills bar chart
+const chart = document.getElementById('skillsChart');
+const chartCtx = chart.getContext('2d');
+
+// Bar colour
+chartCtx.fillStyle = "#1f5fa8";
+
+// C++: 70% = 84px
+chartCtx.fillRect(15, 46, 40, 84);
+
+// Flutter: 80% = 96px
+chartCtx.fillRect(85, 34, 40, 96);
+
+
+// HTML: 60% = 72px
+chartCtx.fillRect(155, 58, 40, 72);
+
+// JavaScript: 20% = 24px
+chartCtx.fillRect(225, 106, 40, 24);
+
+// Skill names
+chartCtx.fillStyle = "black";
+chartCtx.font = "12px Arial";
+chartCtx.textAlign = "center";
+
+chartCtx.fillText("C++", 35, 145);
+chartCtx.fillText("Flutter", 105, 145);
+chartCtx.fillText("HTML", 175, 145);
+chartCtx.fillText("JavaScript", 245, 145);
+</script>
 </body>
 </html>
