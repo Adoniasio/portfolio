@@ -20,6 +20,13 @@ developer, HTML">
      title="Adonias Hailu"
      width="200" height="200">
   <p>Software Engineering student and app developer.</p>
+  <button type="button" onclick="document.getElementById('hireDialog').showModal()">Hire me</button>
+<dialog id="hireDialog">
+  <h2>Available for internships</h2>
+  <p>I am available for internships.</p>
+  <p><a href="#contact">Send me a message</a> or <a href="files/cv.pdf" download>download my CV</a>.</p>
+  <button type="button" onclick="document.getElementById('hireDialog').close()">Close</button>
+</dialog>
   <nav>
     <a href="#about">About</a> |
     <a href="#skills">Skills</a> |
@@ -40,7 +47,7 @@ developer, HTML">
 <p>Status: <del>beginner</del> intermediate and still got a long way to go.</p>
 <p>Fun fact: I love playing <u>chess</u>.</p>
 <p><small>Last updated: October 2026</small></p>
-<h3><h3> I enjoy</h3></h3>
+<h3><h3> Classical I enjoy</h3></h3>
 <audio controls >
   <source src="media/intro.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
@@ -102,8 +109,34 @@ developer, HTML">
     </ul>
 </li>
 </ul>
+    <li>Development Tools
+        <ul type="square">
+            <li>VS Code</li>
+            <li>Git and GitHub</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Skill Levels</h3>
+<p>
+  <label for="lvl-cpp">C++</label>
+  <meter id="lvl-cpp" value="0.7" min="0" max="1">70%</meter>
+</p>
+<p>
+  <label for="lvl-flutter">Flutter</label>
+  <meter id="lvl-flutter" value="0.6" min="0" max="1">60%</meter>
+</p>
+<p>
+  <label for="lvl-html">HTML</label>
+  <meter id="lvl-html" value="0.8" min="0" max="1">80%</meter>
+</p>
+<p>
+  <label for="lvl-js">JavaScript</label>
+  <meter id="lvl-js" value="0.2" min="0" max="1" low="0.3" high="0.7" optimum="1">20%</meter>
+</p>
 
 <h3>My Flutter Development Roadmap</h3>
+
 
 <ol type="1">
     <li>Connect Flutter apps to REST APIs</li>
@@ -235,6 +268,10 @@ developer, HTML">
   <h2>Education</h2>
   <h3>BSc in Software Engineering</h3>
   <p>Addis Ababa Science and Technology University (AASTU), 2024 – present</p>
+  <p>
+  <label for="degree">Degree progress:</label>
+  <progress id="degree" value="50" max="100">50%</progress> 50%
+</p>
   <table border="1" cellpadding="8" cellspacing="0">
   <caption>Academic Record — BSc in Software Engineering</caption>
   <thead>
