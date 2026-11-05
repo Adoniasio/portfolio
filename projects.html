@@ -2,185 +2,168 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Portfolio of Adonias Hailu, Software Engineering
-student and aspiring app developer.">
-<meta name="keywords" content="Adonias Hailu, portfolio, software engineering, app
-developer, HTML">
-<meta name="author" content="Adonias Hailu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects by Adonias Hailu: a Flutter e-commerce app, a weather app and the ClassLink team project.">
+    <meta name="keywords" content="Adonias Hailu, projects, Flutter, Dart, e-commerce, weather app, ClassLink">
+    <meta name="author" content="Adonias Hailu">
     <title>Projects | Adonias Hailu</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-    <nav>
-    <p><a href="index.html">← Back to Home</a></p>
-    </nav>
-    <h1>My Projects</h1>
-    <p>Details of the projects I have built.</p>
-
-    <table border="1" cellpadding="8" cellspacing="0">
-        <caption>Project Summary</caption>
-        <thead>
-            <tr>
-                <th>Project</th>
-                <th>Language</th>
-                <th>Year</th>
-                <th>Link</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>E-commerce App</td>
-                <td>Dart (Flutter)</td>
-               <td><time datetime="2025">2025</time></td>
-                <td><a href="#ecommerce">View project</a></td>
-            </tr>
-            <tr>
-                <td>Weather App</td>
-                <td>Dart (Flutter)</td>
-                <td><time datetime="2025">2025</time></td>
-                <td><a href="#weather">View project</a></td>
-            </tr>
-           <tr>
-    <td>ClassLink (in progress)</td>
-    <td>Dart (Flutter)</td>
-    <td><time datetime="2026">2026</time></td>
-    <td><a href="https://github.com/squidward404/veil">View on GitHub</a></td>
-</tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th colspan="3">Total projects</th>
-                <th>3</th>
-            </tr>
-        </tfoot>
-    </table>
-
-    
+    <header>
+        <nav>
+            <p><a href="index.html">← Back to Home</a></p>
+        </nav>
+        <h1>My Projects</h1>
+        <p>Details of the projects I have built.</p>
+    </header>
 
     <main>
-<article id="ecommerce">
-    <h3>E-commerce App</h3>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <caption>Project Summary</caption>
+            <thead>
+                <tr>
+                    <th>Project</th>
+                    <th>Language</th>
+                    <th>Year</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>E-commerce App</td>
+                    <td>Dart (Flutter)</td>
+                    <td><time datetime="2025">2025</time></td>
+                    <td><a href="#ecommerce">View project</a></td>
+                </tr>
+                <tr>
+                    <td>Weather App</td>
+                    <td>Dart (Flutter)</td>
+                    <td><time datetime="2025">2025</time></td>
+                    <td><a href="#weather">View project</a></td>
+                </tr>
+                <tr>
+                    <td>ClassLink (in progress)</td>
+                    <td>Dart (Flutter)</td>
+                    <td><time datetime="2026">2026</time></td>
+                    <td><a href="#classlink">View project</a></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Total projects</th>
+                    <th>3</th>
+                </tr>
+            </tfoot>
+        </table>
 
-    
-<p>
-    A shopping app that loads products from an API.
-    Users can browse items, add them to a cart and place orders.
-</p>
+        <article id="ecommerce">
+            <h2>E-commerce App</h2>
+            <p>A shopping app that loads products from an API. Users can browse items, add them to a cart and place orders.</p>
 
-<h3>Application Screenshots</h3>
+            <h3>Application Screenshots</h3>
+            <figure>
+                <img src="images/Project-ecommerceHome.png" alt="E-commerce Home Page" width="300">
+                <figcaption>Home Page</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Project-ecommerceCategory.png" alt="E-commerce Categories Page" width="300">
+                <figcaption>Categories Page</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Project-ecommerceCart.png" alt="E-commerce Shopping Cart" width="300">
+                <figcaption>Shopping Cart Page</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Project-ecommerceProfile.png" alt="E-commerce Profile Page" width="300">
+                <figcaption>Profile Page</figcaption>
+            </figure>
 
-<figure>
-    <img src="images/Project-ecommerceHome.png"
-         alt="E-commerce Home Page"
-         width="300">
-    <figcaption>Home Page</figcaption>
-</figure>
+            <details>
+                <summary>How I built it</summary>
+                <ol>
+                    <li>Designed the application interface.</li>
+                    <li>Connected the app to a REST API to load products.</li>
+                    <li>Displayed the products for users to browse.</li>
+                    <li>Implemented cart functionality to add products.</li>
+                    <li>Added order placement functionality.</li>
+                </ol>
+            </details>
 
-<figure>
-    <img src="images/Project-ecommerceCategory.png"
-         alt="E-commerce Categories Page"
-         width="300">
-    <figcaption>Categories Page</figcaption>
-</figure>
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>Dart</li>
+                <li>Flutter</li>
+                <li>REST API</li>
+            </ul>
+        </article>
 
-<figure>
-    <img src="images/Project-ecommerceCart.png"
-         alt="E-commerce Shopping Cart"
-         width="300">
-    <figcaption>Shopping Cart Page</figcaption>
-</figure>
-
-<figure>
-    <img src="images/Project-ecommerceProfile.png"
-         alt="E-commerce Profile Page"
-         width="300">
-    <figcaption>Profile Page</figcaption>
-</figure>
-<details>
- <summary>How I built it</summary>
-<ol>
-    <li>Designed the application interface.</li>
-    <li>Connected the app to a REST API to load products.</li>
-    <li>Displayed the products for users to browse.</li>
-    <li>Implemented cart functionality to add products.</li>
-    <li>Added order placement functionality.</li>
-</ol>
-</details>
-<h3>Technologies Used</h3>
-<ul>
-    <li>Dart</li>
-    <li>Flutter</li>
-    <li>REST API</li>
-</ul>
-</article>
-
-
-    
         <article id="weather">
-    <h3>Weather App</h3>
-    <img src="images/project-weather.png"
-     alt="Screenshot of my Weather App"
-     width="400" height="300">
-    <p>An app that shows the current weather and forecast for a city the user searches for in real time.</p>
-    <details>
-        <summary>How I built it</summary>
-<ol>
-    <li>Designed the weather application interface.</li>
-    <li>Created a search feature for entering a city name.</li>
-    <li>Connected the app to a weather API.</li>
-    <li>Retrieved and processed weather data from the API.</li>
-    <li>Displayed the current weather and forecast.</li>
-</ol>
-    </details>
+            <h2>Weather App</h2>
+            <img src="images/project-weather.png" alt="Screenshot of my Weather App" width="400" height="300">
+            <p>An app that shows the current weather and forecast for a city the user searches for in real time.</p>
 
+            <details>
+                <summary>How I built it</summary>
+                <ol>
+                    <li>Designed the weather application interface.</li>
+                    <li>Created a search feature for entering a city name.</li>
+                    <li>Connected the app to a weather API.</li>
+                    <li>Retrieved and processed weather data from the API.</li>
+                    <li>Displayed the current weather and forecast.</li>
+                </ol>
+            </details>
 
-<h3>Technologies Used</h3>
-<ul>
-    <li>Dart</li>
-    <li>Flutter</li>
-    <li>Weather API</li>
-</ul>
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>Dart</li>
+                <li>Flutter</li>
+                <li>Weather API</li>
+            </ul>
+        </article>
 
-    </article>
+        <article id="classlink">
+            <h2>ClassLink (in progress)</h2>
+            <img src="images/project-classlink.png"
+                 alt="Screenshot of the ClassLink app home screen with a search bar, quick access buttons for classmates, courses and messages, and campus announcements"
+                 width="300">
+            <p>A team project I am building with three classmates. ClassLink is an app that connects the students in our class, because the connection at our university is currently poor while the infrastructure is being improved. I work on the app's interface and user experience using Flutter, and we are still building it.</p>
 
+            <h3>Watch the demo</h3>
+            <video controls poster="images/project-classlink.png" width="640" height="360">
+                <source src="media/project-ClassLink.mp4" type="video/mp4">
+                <source src="media/project-ClassLink.webm" type="video/webm">
+                <track src="media/project-ClassLink.vtt" kind="captions" srclang="en" label="English" default>
+                Your browser does not support the video tag.
+            </video>
 
-     <article id="classlink">
-    <h3>ClassLink (in progress)</h3>
+            <details>
+                <summary>How we built it</summary>
+                <ol>
+                    <li>Planned the application features with my teammates.</li>
+                    <li>Designed the user interface using Flutter.</li>
+                    <li>Created screens for classmates, courses and messages.</li>
+                    <li>Added navigation between the application screens.</li>
+                    <li>Worked with my teammates to continue developing the application.</li>
+                </ol>
+            </details>
 
-    <img src="images/project-classlink.png"
-     alt="Screenshot of the ClassLink app home screen with a search bar, quick access buttons for classmates, courses and messages, and campus announcements"
-     width="300">
-    <p>A team project built with two classmates. ClassLink is an app that connects the students in our class, because the connection at our university is currently poor while the infrastructure is being improved. I work on the app's interface and user experience using Flutter, and we are still building it.</p>
-    <video controls poster="images/project-classlink.png" width="640" height="360">
-  <source src="media/project-ClassLink.mp4" type="video/mp4">
-  <track src="media/project-ClassLink.vtt" kind="captions" srclang="en" label="English" default>
-  Your browser does not support the video tag.
-</video>
-<details>
-    <summary>How We built it</summary>
-<ol>
-    <li>Planned the application features with my teammates.</li>
-    <li>Designed the user interface using Flutter.</li>
-    <li>Created screens for classmates, courses and messages.</li>
-    <li>Added navigation between the application screens.</li>
-    <li>Worked with my teammates to continue developing the application.</li>
-</ol>
-</details>
-<h3>Technologies Used</h3>
-<ul>
-    <li>Dart</li>
-    <li>Flutter</li>
-</ul>
-    </article>
-</main>
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>Dart</li>
+                <li>Flutter</li>
+            </ul>
+        </article>
 
-<h2>Useful Links</h2>
-<p><a href="https://www.w3.org/">W3C: the official home of web standards</a></p>
-<p><a href="index.html#contact">Contact me (home page)</a></p>
-<footer>
-    <p>&copy; 2026 Adonias Hailu. All rights reserved.</p>
-</footer>
+        <section id="links">
+            <h2>Useful Links</h2>
+            <p><a href="https://www.w3.org/">W3C: the official home of web standards</a></p>
+            <p><a href="index.html#contact">Contact me (home page)</a></p>
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; 2026 Adonias Hailu. All rights reserved.</p>
+    </footer>
 </body>
 </html>
